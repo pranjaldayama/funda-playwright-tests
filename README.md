@@ -224,7 +224,10 @@ const USER_AGENT = 'USER_AGENT';
 - **Browser**: Chromium
 - **Last Updated**: January 2026
 
-image.png
+<img width="871" height="289" alt="image" src="https://github.com/user-attachments/assets/87c65b67-451c-4912-b46c-d94398bb62c0" />
+<img width="728" height="835" alt="image" src="https://github.com/user-attachments/assets/ef507187-8532-42fc-aa73-846ab6d4c62c" />
+
+
 
 ## 📝 Comparing Patterns
 
