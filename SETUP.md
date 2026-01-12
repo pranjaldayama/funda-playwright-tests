@@ -17,7 +17,7 @@ The user agent is required to bypass Funda's robot detection.
 1. Open `playwright.config.ts`
 2. Find this line at the top:
    ```typescript
-   const USER_AGENT = 'USER_AGENT';
+   const USER_AGENT = 'xxxx';
    ```
 3. Replace `'USER_AGENT'` with your actual user agent string:
    ```typescript
@@ -52,7 +52,7 @@ Location: Top of the file, line ~4
 
 ```typescript
 // ⚠️ REPLACE THIS WITH YOUR ACTUAL USER AGENT
-const USER_AGENT = 'USER_AGENT';
+const USER_AGENT = 'xxxx';
 ```
 
 **Important**: 
