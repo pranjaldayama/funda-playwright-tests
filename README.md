@@ -275,6 +275,6 @@ npm run test:debug
 
 ---
 
-**Built following enterprise patterns and industry best practices for the Funda Senior QA Engineer position**
+**Built following enterprise patterns and industry best practices for the Funda**
 
 *Clean. Professional. Scalable.*
