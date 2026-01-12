@@ -1,0 +1,28 @@
+# Ignore artifacts
+node_modules
+dist
+build
+coverage
+
+# Ignore reports
+playwright-report
+test-results
+allure-results
+allure-report
+screenshots
+videos
+traces
+
+# Ignore lock files
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Ignore logs
+*.log
+logs
+
+# Ignore generated files
+*.min.js
+*.min.css
+

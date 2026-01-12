@@ -1,0 +1,40 @@
+{
+  "name": "funda-playwright-tests",
+  "version": "1.0.0",
+  "description": "Playwright test automation for Funda - focusing on test quality and best practices",
+  "scripts": {
+    "test": "playwright test",
+    "test:smoke": "playwright test tests/smoke",
+    "test:headed": "playwright test --headed",
+    "test:debug": "playwright test --debug",
+    "test:ui": "playwright test --ui",
+    "test:ui:home": "playwright test tests/smoke/01-homepage.spec.ts --ui",
+    "test:ui:search": "playwright test tests/smoke/02-search-functionality.spec.ts --ui",
+    "test:ui:listing": "playwright test tests/smoke/03-property-listing.spec.ts --ui",
+    "test:ui:detail": "playwright test tests/smoke/04-property-detail.spec.ts --ui",
+    "test:ui:e2e": "playwright test tests/smoke/05-end-to-end-flow.spec.ts --ui",
+    "report": "playwright show-report",
+    "type-check": "tsc --noEmit",
+    "lint": "eslint . --ext .ts",
+    "format": "prettier --write \"**/*.{ts,json,md}\""
+  },
+  "keywords": [
+    "playwright",
+    "typescript",
+    "test-automation",
+    "funda"
+  ],
+  "author": "Pranjal",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.41.0",
+    "@types/node": "^20.10.0",
+    "@typescript-eslint/eslint-plugin": "^6.13.0",
+    "@typescript-eslint/parser": "^6.13.0",
+    "eslint": "^8.54.0",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-plugin-playwright": "^0.20.0",
+    "prettier": "^3.1.0",
+    "typescript": "^5.3.2"
+  }
+}

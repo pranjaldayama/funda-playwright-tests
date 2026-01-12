@@ -1,0 +1,43 @@
+[
+  {
+    "name": "Amsterdam",
+    "searchTerm": "Amsterdam",
+    "minExpectedProperties": 100
+  },
+  {
+    "name": "Rotterdam",
+    "searchTerm": "Rotterdam",
+    "minExpectedProperties": 50
+  },
+  {
+    "name": "Utrecht",
+    "searchTerm": "Utrecht",
+    "minExpectedProperties": 50
+  },
+  {
+    "name": "Den Haag",
+    "searchTerm": "Den Haag",
+    "minExpectedProperties": 50
+  },
+  {
+    "name": "Eindhoven",
+    "searchTerm": "Eindhoven",
+    "minExpectedProperties": 30
+  },
+  {
+    "name": "Groningen",
+    "searchTerm": "Groningen",
+    "minExpectedProperties": 20
+  },
+  {
+    "name": "Haarlem",
+    "searchTerm": "Haarlem",
+    "minExpectedProperties": 20
+  },
+  {
+    "name": "Leiden",
+    "searchTerm": "Leiden",
+    "minExpectedProperties": 20
+  }
+]
+

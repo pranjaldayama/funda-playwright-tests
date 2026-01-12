@@ -1,0 +1,22 @@
+# Ignore artifacts
+node_modules/
+dist/
+build/
+coverage/
+
+# Ignore reports
+playwright-report/
+test-results/
+allure-results/
+allure-report/
+screenshots/
+videos/
+traces/
+
+# Ignore examples
+examples/
+
+# Ignore configuration files that don't need linting
+*.config.js
+*.config.ts
+
