@@ -1,7 +1,6 @@
 import { defineConfig, devices } from '@playwright/test';
 
 // ⚠️ REPLACE THIS WITH YOUR ACTUAL USER AGENT
-// This is provided by Funda for bypassing robot detection during testing
 const USER_AGENT = 'xxxx';
 
 export default defineConfig({
